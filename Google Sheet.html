@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Google Sheet.css">
+    <title>Student Complaint Form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Complaint Form</h1>
+    </header>
+   <div class="container">
+    <form method="post" action="" name="Student complaint form">
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="student id">Student ID:</label>
+            <input type="student id" id="student id" name="email" required>
+
+            <label for="type">Type of Complaint:</label>
+            <select id="type" name="type" required>
+                <option value="bullying">Bullying</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="academic">Academic</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+    </form>
+
+   </div>
+   <script src="Google Sheet.js"></script>
+    
+</body>
+</html>
